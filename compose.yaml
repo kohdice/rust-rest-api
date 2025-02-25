@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+      target: final
+    environment:
+      - PORT=80
+    ports:
+      - 80:80
